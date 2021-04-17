@@ -1,0 +1,101 @@
+
+
+body {
+background-color:#B4C292;
+margin: 0;
+font-family: Caveat;
+}
+
+.navBarContainer {
+width: 80%;
+margin: 0 auto;
+}
+
+header {
+    background-color: #E7ECEF;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+} 
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+
+nav a {
+    color:black ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: black;
+   
+    position: absolute;
+    top:0;
+    transition: all ease-in-out 120ms;
+}
+ nav a:hover::before {
+     width: 100%;
+ }
+
+.imgContainer {
+    display: block;
+    text-align: center;
+}
+
+ .meClimbing {
+    height: 750px;
+    border-radius: 10%;
+    padding-top: 50px;
+    padding-bottom:50px ;
+ }
+
+footer {
+background-color:#E7ECEF;
+height: 75px;
+width: auto;
+padding-bottom: 0;
+display: block;
+margin: 0;
+}
+
+.footerLink {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+
