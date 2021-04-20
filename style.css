@@ -102,7 +102,26 @@ margin: 0;
     margin: 0;
 }
 
-p {
+.homeParagraph {
     font-size: 25px;
+}
+
+#leftContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+
+#kelsoClimbing {
+    border-radius: 10%;
+    height: 600px;
+    width: auto;
+}
+
+#aboutMePara {
+display: flex;
+justify-content: center;
 }
 
