@@ -82,12 +82,11 @@ nav a::before {
 
 footer {
 background-color:#E7ECEF;
-display: flex;
-
+display: block;
 height: 75px;
 width: auto;
 padding-bottom: 0;
-display: block;
+
 margin: 0;
 }
 
@@ -121,7 +120,33 @@ margin: 0;
 }
 
 #aboutMePara {
-display: flex;
-justify-content: center;
+display: block;
+text-align: center;
 }
+
+#projContainer {
+    display: block;
+    text-align: center;
+    padding: 400px 0;
+}
+.proExpCon1 {
+    display:block; 
+   text-align: center; 
+   padding-bottom: 25px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title:hover {
+    font-size: 75px;
+    background-color:#E7ECEF;
+    color: #B4C292 ;
+    border-radius: 15%;
+    transition: ease-out 1500ms;
+    display: block;
+    align-items: center;
+}
+
 
